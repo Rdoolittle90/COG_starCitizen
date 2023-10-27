@@ -1,6 +1,6 @@
 import datetime
 from nextcord import User
-from src.cogs.starCitizen.components.scripts.aUEC import aUEC
+from .aUEC import aUEC
 from src.extra.scripts.colored_printing import colorized_print
 from src.bot import DiscordBot
 

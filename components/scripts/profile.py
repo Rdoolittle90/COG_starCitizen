@@ -2,10 +2,11 @@ from nextcord import Color
 from nextcord import Embed
 from nextcord import User
 import datetime
-from src.cogs.starCitizen.components.scripts.plotter import plot_data
+
+from .plotter import plot_data
+from .crew_member import CrewMember
 
 from src.bot import DiscordBot
-from src.cogs.starCitizen.components.scripts.crew_member import CrewMember
 from collections import defaultdict
 
 

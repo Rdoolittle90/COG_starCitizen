@@ -122,7 +122,7 @@ class StarCitCog(commands.Cog):
 
 def setup(bot: DiscordBot):
     os.makedirs(f'{DiscordBot.paths["temp"]}/sc', exist_ok=True)
-    asyncio.run( DiscordBot.sql.executescript("src/cogs/starCitizen/components/sql/SCtables.sql"))
+    asyncio.run( DiscordBot.sql.executescript("src/cogs/COG_starCitizen/components/sql/SCtables.sql"))
     cog = StarCitCog(bot)
     bot.add_cog(cog)
     bot.global_task_list.append((cog.update, ))

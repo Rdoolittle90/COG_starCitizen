@@ -1,6 +1,6 @@
 from src.bot import DiscordBot
-from src.cogs.starCitizen.components.scripts.aUEC import aUEC
-from src.cogs.starCitizen.components.scripts.crew_member import CrewMember
+from .aUEC import aUEC
+from .crew_member import CrewMember
 from nextcord import User
 
 

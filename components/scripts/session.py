@@ -3,9 +3,9 @@ import datetime
 from nextcord import Interaction, Embed, User, ButtonStyle, Color
 import nextcord
 from nextcord.ui import View, Button
-from src.cogs.starCitizen.components.scripts.crew_roster import CrewRoster
-from src.cogs.starCitizen.components.scripts.crew_member import CrewMember
-from src.cogs.starCitizen.components.scripts.aUEC import aUEC
+from .crew_roster import CrewRoster
+from .crew_member import CrewMember
+from .aUEC import aUEC
 from src.bot import DiscordBot
 from src.extra.scripts.easy_modal import EasyModal
 
